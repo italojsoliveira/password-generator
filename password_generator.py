@@ -51,3 +51,14 @@ pwd = generate_password(min_length, has_number, has_special)
 
 st.subheader('Password')
 st.write(pwd)
+
+footer_html = """<div style='text-align: center;'>
+  <p><a href="https://github.com/italojsoliveira/password-generator">Source Code</a></p>
+</div>"""
+st.markdown(footer_html, unsafe_allow_html=True)
+
+footer_html = """<div style='text-align: center;'>
+  <p>Developed with ❤️ by <a href="https://italojsoliveira.github.io/">Ítalo Oliveira</a></p>
+</div>"""
+st.markdown(footer_html, unsafe_allow_html=True)
+
