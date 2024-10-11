@@ -57,7 +57,7 @@ footer_html = """<div style='text-align: center;'>
 </div>"""
 st.markdown(footer_html, unsafe_allow_html=True)
 
-footer_html = """<div style='text-align: center;'>
+footer_html = """<div style='text-align: right;'>
   <p>Developed with ❤️ by <a href="https://italojsoliveira.github.io/">Ítalo Oliveira</a></p>
 </div>"""
 st.markdown(footer_html, unsafe_allow_html=True)
